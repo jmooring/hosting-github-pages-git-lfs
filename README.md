@@ -9,3 +9,11 @@ GIT_CLONE_PROTECTION_ACTIVE=false git clone https://github.com/jmooring/hosting-
 cd hosting-github-pages-git-lfs
 hugo server
 ```
+
+## Live sites
+
+Hosted on GitHub Pages:
+<https://jmooring.github.io/hosting-github-pages-git-lfs/>
+
+Hosted on Netlify
+<https://hosting-github-pages-git-lfs.netlify.app/>
