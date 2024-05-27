@@ -1,5 +1,4 @@
 # See https://git-scm.com/docs/gitattributes.
-
 #------------------------------------------------------------------------------
 # Text files.
 #
@@ -26,7 +25,6 @@
 #   - Deny applying with 'git apply --whitespace=error-all'.
 #   - Fix automatically with 'git apply --whitespace=fix'.
 #------------------------------------------------------------------------------
-
 *.config  text eol=lf whitespace=blank-at-eol,-blank-at-eof,-space-before-tab,tab-in-indent,tabwidth=2
 *.css     text eol=lf whitespace=blank-at-eol,-blank-at-eof,-space-before-tab,tab-in-indent,tabwidth=2 diff=css
 *.dist    text eol=lf whitespace=blank-at-eol,-blank-at-eof,-space-before-tab,tab-in-indent,tabwidth=2
@@ -57,36 +55,30 @@
 *.xml     text eol=lf whitespace=blank-at-eol,-blank-at-eof,-space-before-tab,tab-in-indent,tabwidth=2
 *.yaml    text eol=lf whitespace=blank-at-eol,-blank-at-eof,-space-before-tab,tab-in-indent,tabwidth=2
 *.yml     text eol=lf whitespace=blank-at-eol,-blank-at-eof,-space-before-tab,tab-in-indent,tabwidth=2
-
 #------------------------------------------------------------------------------
 # Binary files.
 #
 # binary
 #   - This is a macro for -text, -diff, -merge.
 #------------------------------------------------------------------------------
-
 # Archive.
 *.iso     binary
 *.tar     binary
-
 # Compressed.
 *.bz2     binary
 *.gz      binary
-
 # Compressed archive.
 *.phar    binary
 *.rar     binary
 *.tar.gz  binary
 *.tgz     binary
 *.zip     binary
-
 # Adobe.
 *.ai      binary
 *.eps     binary
 *.pdf     binary
 *.ps      binary
 *.psd     binary
-
 # Audio/video.
 *.mp3     binary
 *.mp4     binary
@@ -95,14 +87,12 @@
 *.ogv     binary
 *.ogx     binary
 *.webm    binary
-
 # Fonts.
 *.eot     binary
 *.otf     binary
 *.ttf     binary
 *.woff    binary
 *.woff2   binary
-
 # Images.
 *.bmp     binary
 *.gif     binary
@@ -110,13 +100,12 @@
 *.jfif    binary
 *.jpe     binary
 *.jpeg    binary
-*.jpg     binary
+*.jpg filter=lfs diff=lfs merge=lfs -text
 *.png     binary
 *.svgz    binary
 *.tif     binary
 *.tiff    binary
 *.webp    binary
-
 # Libre Office.
 *.odb     binary
 *.odf     binary
@@ -129,7 +118,6 @@
 *.otp     binary
 *.ots     binary
 *.ott     binary
-
 # Microsoft Office.
 *.docx    binary
 *.dotx    binary
@@ -137,7 +125,6 @@
 *.pptx    binary
 *.xlsx    binary
 *.xltx    binary
-
 # Microsoft Office (legacy).
 *.doc     binary
 *.dot     binary
@@ -145,7 +132,6 @@
 *.ppt     binary
 *.xls     binary
 *.xlt     binary
-
 # Other.
 *.dll     binary
 *.exe     binary
