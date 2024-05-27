@@ -14,3 +14,7 @@ weight = 10
 name = 'Posts'
 pageRef = '/posts'
 weight = 20
+
+[caches.images]
+dir    = ":cacheDir/images"
+maxAge = "1440h"
