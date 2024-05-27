@@ -1,0 +1,16 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Hosting Test - GitHub Pages with Git LFS'
+
+disableKinds = ['rss','sitemap','taxonomy','term']
+summaryLength = 20
+
+[[menus.main]]
+name = 'Home'
+pageRef = '/'
+weight = 10
+
+[[menus.main]]
+name = 'Posts'
+pageRef = '/posts'
+weight = 20
