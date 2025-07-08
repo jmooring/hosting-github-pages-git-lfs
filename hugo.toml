@@ -1,6 +1,6 @@
 baseURL              = 'https://example.org/'
 languageCode         = 'en-US'
-title                = 'Hosting Test - GitHub Pages with LFS'
+title                = 'Hosting Test - GitHub Pages with Git LFS'
 enableGitInfo        = true
 
 # -----------------------------------------------------------------------------
