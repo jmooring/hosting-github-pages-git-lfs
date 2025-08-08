@@ -1,0 +1,23 @@
+baseURL = 'https://jmooring.github.io/hosting-github-pages-git-lfs/'
+locale  = 'en-US'
+title   = 'Hosting Test - GitHub Pages with Git LFS'
+
+enableGitInfo = true
+
+[caches]
+  _merge = 'deep'
+
+[cascade]
+  _merge = 'deep'
+
+[markup]
+  _merge = 'deep'
+
+[security]
+  _merge = 'deep'
+
+[[module.imports]]
+  path = 'github.com/jmooring/hugo-module-feature-test'
+
+[params]
+  imageBenchmark = true
