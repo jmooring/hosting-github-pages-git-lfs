@@ -13,10 +13,6 @@ This site:
 
 [^1]: See [issue #9810](https://github.com/gohugoio/hugo/issues/9810). Git's `core.quotepath` setting is `false` if `/tests/hugö` has a non-zero "last modified" date.
 
-This is site is also served from:
-
-<https://hosting-github-pages-git-lfs.netlify.app/>
-
 ## Using Git LFS
 
 1. Install [git-lfs](https://git-lfs.com/).
