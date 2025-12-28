@@ -15,10 +15,10 @@ enableGitInfo = true
 # -----------------------------------------------------------------------------
 
 [markup.goldmark.renderHooks.image]
-  useEmbedded = 'fallback'
+  useEmbedded = 'always'
 
 [markup.goldmark.renderHooks.link]
-  useEmbedded = 'fallback'
+  useEmbedded = 'always'
 
 # -----------------------------------------------------------------------------
 # Menus
